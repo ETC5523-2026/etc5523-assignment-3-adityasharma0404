@@ -1,53 +1,35 @@
 ---
-title: ""
-toc: false
+title: "About"
+image: profile.jpg
 about:
-  template: trestles
-  image: profile.jpg
+  template: jolla
+  image-width: 13em
   image-shape: round
-  image-width: 14em
   links:
     - icon: github
       text: GitHub
       href: https://github.com/adityasharma0404
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/in/
-    - icon: envelope
-      text: Email
-      href: mailto:adityasharma90351@gmail.com
-    - icon: instagram
-      text: Instagram
-      href: https://www.instagram.com/ad1_sharm4/
+      href: https://linkedin.com/in/aditya-sharma-1617b4314
 ---
-
-## About
 
 ### Hi, I'm Aditya Sharma
 
-Masters student @ 【entity-Monash University¦canonical_name=Monash University】
+Masters in Business Analytics at Monash University. I believe good data work is invisible — if your audience is thinking about your chart instead of your message, you've lost them.
 
-I believe good data work is invisible - if your audience is thinking about your chart instead of your message, you've lost them.
+#### **Tools**
 
-This blog is my practice ground for that: taking complex analysis and translating it for people who don't care about p-values and r-squared stuff, they care about what to do next.
+R, Python, Quarto, ggplot2, Tableau, Shiny, Adobe XD and Figma (Prototyping)
 
-#### What I work with
+#### **Focus**
 
-**Tools:** R, Python, Quarto, ggplot2, Tableau, Shiny, Adobe XD, Figma
-**Focus:** Data storytelling, visual explanation, non-technical communication
+Data storytelling, visual explanation, non-technical communication
 
-#### My approach
+#### **Outside Data**
 
-**Audience first, chart second** — Start with their question, not your dataset
+Coffee tasting, pet spotting, hiking, beach day-outs, soccer and cricket
 
-**One message per visual** — If you need a paragraph to explain it, redesign it
+#### **Other Interests**
 
-**Context over precision** — A rough number they remember beats a precise one they forget
-
-#### Outside data
-
-Coffee tasting, pet spotting, hiking, beach day-outs, soccer and cricket, and some occasional movies.
-
-#### Let's connect
-
-I'm always up for talking about anything — data, sports, humor, geopolitics, debates, and rock music.
+Debating, geopolitics and rock music

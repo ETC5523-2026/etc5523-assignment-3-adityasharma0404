@@ -1,34 +1,30 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
 
 website:
-  title: "Making Data Make Sense"
-  search: true
+  title: ""
+  site-url: https://etc5523-2026.github.io/etc5523-assignment-3-adityasharma0404/
+  search:
+    location: navbar
+    type: textbox
+  page-footer:
+    center: "Aditya Sharma | Built with Quarto"
   navbar:
+    logo: aditya_sharma_logo_transparent.png
+    logo-alt: "Aditya Sharma - Home"
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: About
+        text: About Me
     right:
       - icon: github
         href: https://github.com/adityasharma0404
       - icon: linkedin
-        href: https://linkedin.com/in/
-  sidebar:
-    style: docked
-    contents:
-      - text: Home
-        href: index.qmd
-      - section: Explore
-        contents:
-          - posts/*.qmd
-      - text: About
-        href: about.qmd
+        href: https://linkedin.com/in/aditya-sharma-1617b4314
 
 format:
   html:
-    theme: flatly
+    theme: cosmo
     css: styles.css
-    toc: true

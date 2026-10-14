@@ -1,6 +1,5 @@
 ---
-title: "Making Data Make Sense"
-subtitle: "Data stories, simply told"
+title: "Data stories, simply told"
 listing:
   contents: posts
   sort: "date desc"
@@ -8,9 +7,39 @@ listing:
   categories: false
   sort-ui: false
   filter-ui: false
-toc: false
 ---
 
-Welcome to my blog by **Aditya Sharma**
+Hey there, welcome to my Weblog! I break down complex data into stories that actually make sense for everyone.
 
-I break down complex data into stories that actually make sense for everyone.
+<script>
+function fixListing(){
+  document.querySelectorAll('.quarto-post').forEach(function(post){
+    var walker = document.createTreeWalker(post, NodeFilter.SHOW_TEXT, null, false);
+    var n;
+    while(n = walker.nextNode()){
+      if(n.nodeValue.includes('Australia Climate Bushfires') && !n.parentElement.closest('.listing-tags')){
+        n.nodeValue = '';
+      }
+    }
+    post.querySelectorAll('.listing-tags').forEach(function(t){ t.remove(); });
+    if(post.innerText.includes('Was Black Summer')){
+      var title = post.querySelector('h3, .listing-title, a.title');
+      var body = title ? title.closest('div') : post;
+      var desc = post.querySelector('.listing-description');
+      var box = document.createElement('div');
+      box.className = 'listing-tags';
+      box.innerHTML = '<a>AUSTRALIA</a><a>CLIMATE</a><a>BUSHFIRES</a>';
+      if(desc){
+        desc.after(box);
+      } else if(body){
+        body.appendChild(box);
+      } else {
+        post.appendChild(box);
+      }
+    }
+  });
+}
+document.addEventListener("DOMContentLoaded", fixListing);
+setTimeout(fixListing, 300);
+setTimeout(fixListing, 1000);
+</script>

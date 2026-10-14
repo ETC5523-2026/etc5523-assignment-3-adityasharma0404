@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "posts/black-summer/index.html",
+    "href": "posts/black-summer/index.html",
+    "title": "Was Black Summer more likely because of us?",
+    "section": "",
+    "text": "Australia Climate Bushfires\nIn summer 2019-20, around 19 million hectares burned, 33 people died directly in the fires, almost 6,000 buildings were lost and smoke sat over cities for weeks. It was Australia’s hottest and driest year on record.\nThe question that followed was simple: did human-caused climate change make a season like that more likely?\nThat’s what a team led by van Oldenborgh set out to test. This post is a plain-English summary of their peer-reviewed attribution study."
+  },
+  {
+    "objectID": "posts/black-summer/index.html#the-problem-what-can-we-actually-link-to-climate-change",
+    "href": "posts/black-summer/index.html#the-problem-what-can-we-actually-link-to-climate-change",
+    "title": "Was Black Summer more likely because of us?",
+    "section": "The problem: what can we actually link to climate change?",
+    "text": "The problem: what can we actually link to climate change?\nA bushfire needs three things to happen: weather that makes fire spread fast, fuel to burn, and something to light it.\nHuman-caused climate change doesn’t light the match. It mostly changes the first one — the weather. The useful question isn’t “did climate change cause this fire?”, it’s “has dangerous fire weather become more likely?”\nThat’s what the study focused on, for forested south-east Australia — the box you can see in Figure 1.\n\n\n\n\n\n\nFigure 1: Satellite-detected fires 1 Oct 2019 to 10 Jan 2020. Warmer colours = more intense fires, blue = forest. The black box is the region studied. Source: NASA’s MODIS (Moderate Resolution Imaging Spectroradiometer) Data.\n\n\n\nBefore they started, they checked that their measure of fire weather actually matters. It does. The measure they used is the Fire Weather Index (FWI). It’s a daily score built from temperature, humidity, wind and recent rain. When FWI is high, fires are harder to put out and burn more land. Think of it as a danger thermometer."
+  },
+  {
+    "objectID": "posts/black-summer/index.html#analysis-what-the-researchers-did-and-found",
+    "href": "posts/black-summer/index.html#analysis-what-the-researchers-did-and-found",
+    "title": "Was Black Summer more likely because of us?",
+    "section": "Analysis: what the researchers did and found",
+    "text": "Analysis: what the researchers did and found\nWhere the evidence comes from\nThe study is van Oldenborgh et al. (2021) in Natural Hazards and Earth System Sciences. For what really happened, they used the ECMWF ERA5 reanalysis — a reconstruction of past weather from 1979 to January 2020 — and NASA’s satellite fire record. For global warming, they used NASA’s GISTEMP. To separate a world with and without human emissions, they used 11 different climate models.\nWhat changed\nFigure 2 shows the worst fire weather of each season in the south-east from 1980 to 2020. Any single year jumps around, but the 10-year average — the smooth green line — keeps climbing. 2019-20 sits at the very top. It was the most extreme in that 40-year record.\n\n\n\n\n\n\nFigure 2: Peak seasonal fire danger in south-east Australia. Each blue point is one year, the green line is the 10-year average. Higher means more dangerous. Adapted from van Oldenborgh et al. (2021).\n\n\n\nTo turn that trend into a number, they fitted a statistical curve to extremes and let it shift as the planet warms. Then they read off the odds today versus around 1900.\nTable 1 sums it up in plain language.\n\n\n\nTable 1: How human-caused climate change has changed the odds of a Black Summer-type season in south-east Australia, compared to ~1900. Based on van Oldenborgh et al. (2021).\n\n\n\n\n\n\n\n\n\n\n\nWhat was measured\nWhat it means in real life\nHow much more likely is it now?\nHow sure are we?\n\n\n\n\nFire Weather Index - worst 7 days\nDay-to-day danger from heat, wind and dryness\nAt least 30% more likely in models; 4x or more in direct observations\nSolid lower bound - true rise likely larger\n\n\nMonthly Severity Rating\nHow hard fires are to put out over a whole month\nAbout 9x more likely in observations; 2x in models\nLikely increase, wide range\n\n\nExtreme heat - hottest 7 days of fire season\nThe heat that drives the danger\nAt least 2x more likely\nPretty robust\n\n\nRainfall deficit\nHow much rain was missing\nNo clear human-caused trend found\nNo signal\n\n\nFuture at +2°C warming\nWhat happens if warming continues\nAbout 4x more likely than 1900\nFrom models\n\n\n\n\n\n\nAs you can see in Table 1, the heat part is clearly on us. A hot spell like December 2019 is at least twice as likely because of human-caused warming.\nThe missing rain is different. That year’s record-low rain was mostly natural bad luck — a record swing in the Indian Ocean Dipole and an unusual Southern Annular Mode — that lined up badly. Climate change sharpened the heat and fire weather, but not the drought itself.\nOne important caveat the authors flag, and it matters for how you read the numbers: the models are a bit too cool on this trend. They wobble year-to-year and underestimate the long-term rise in both heat and fire weather. That’s why they give their results as “at least 30%” — they mean it as a floor, not their best guess. The real rise is probably bigger, we just can’t pin down exactly how much bigger.\nSo does this answer the question we started with? Yes — the dangerous weather that makes a Black Summer possible is now significantly more likely, and it’s mostly driven by the hotter temperatures we’ve added."
+  },
+  {
+    "objectID": "posts/black-summer/index.html#conclusion-what-this-means-for-the-next-black-summer",
+    "href": "posts/black-summer/index.html#conclusion-what-this-means-for-the-next-black-summer",
+    "title": "Was Black Summer more likely because of us?",
+    "section": "Conclusion: what this means for the next Black Summer",
+    "text": "Conclusion: what this means for the next Black Summer\nBlack Summer felt unprecedented because, for fire weather, it was. Since around 1900, the chance of that level of fire weather in south-east Australia has risen by at least 30% in climate models and by four times or more when we look directly at what we’ve observed. That lower-bound nature is key — 30% is the minimum we can defend, not the ceiling.\nAt 2°C of global warming — a world we are heading towards — the same study projects that kind of fire weather becomes about four times more likely again compared to 1900 [van Oldenborgh et al., 2021].\nThere was no clear human fingerprint on the rainfall failure that year. But the heat and the fire danger that turned dry fuel into an uncontrollable season do carry one, and the trend in Figure 2 is still climbing.\nIf you live, work, or plan for fire risk in south-east Australia, it makes sense to start from a rising baseline. This paper gives us a credible floor to plan from.\n\nReference: van Oldenborgh, G.J., Krikken, F., Lewis, S., et al. (2021). Attribution of the Australian bushfire risk to anthropogenic climate change. Natural Hazards and Earth System Sciences, 21, 941–960."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hi, I’m Aditya Sharma\nMasters in Business Analytics at Monash University. I believe good data work is invisible — if your audience is thinking about your chart instead of your message, you’ve lost them.\n\nTools\nR, Python, Quarto, ggplot2, Tableau, Shiny, Adobe XD and Figma (Prototyping)\n\n\nFocus\nData storytelling, visual explanation, non-technical communication\n\n\nOutside Data\nCoffee tasting, pet spotting, hiking, beach day-outs, soccer and cricket\n\n\nOther Interests\nDebating, geopolitics and rock music"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data stories, simply told",
+    "section": "",
+    "text": "Hey there, welcome to my Weblog! I break down complex data into stories that actually make sense for everyone.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWas Black Summer more likely because of us?\n\n\nA 30-second answer to a question a lot of Australians have been asking since 2019-20\n\n\n\n\n\n\n\n\nOct 13, 2025\n\n\nAditya Sharma\n\n\n\n\n\nNo matching items"
+  }
+]
