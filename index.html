@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Making Data Make Sense</title>
+<title>Data stories, simply told</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -42,20 +42,19 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-96c1bb8b336142dcc39f931773fab1b9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
-  "type": "overlay",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -80,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -133,7 +132,7 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed fullcontent quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -141,9 +140,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    </a>
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Making Data Make Sense</span>
+    <img src="./aditya_sharma_logo_transparent.png" alt="Aditya Sharma - Home" class="navbar-logo light-content">
+    <img src="./aditya_sharma_logo_transparent.png" alt="Aditya Sharma - Home" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -158,7 +156,7 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">About Me</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -168,7 +166,7 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/in/"> <i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com/in/aditya-sharma-1617b4314"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -178,57 +176,10 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
-      </a>
-      </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Home</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Explore</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
- <span class="menu-text">posts/*.qmd</span>
-  </li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
@@ -236,8 +187,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Making Data Make Sense</h1>
-<p class="subtitle lead">Data stories, simply told</p>
+<h1 class="title">Data stories, simply told</h1>
 </div>
 
 
@@ -254,32 +204,66 @@ window.Quarto = {
 </header>
 
 
-<p>Welcome to my blog by <strong>Aditya Sharma</strong></p>
-<p>I break down complex data into stories that actually make sense for everyone.</p>
+<p>Hey there, welcome to my Weblog! I break down complex data into stories that actually make sense for everyone.</p>
+<script>
+function fixListing(){
+  document.querySelectorAll('.quarto-post').forEach(function(post){
+    var walker = document.createTreeWalker(post, NodeFilter.SHOW_TEXT, null, false);
+    var n;
+    while(n = walker.nextNode()){
+      if(n.nodeValue.includes('Australia Climate Bushfires') && !n.parentElement.closest('.listing-tags')){
+        n.nodeValue = '';
+      }
+    }
+    post.querySelectorAll('.listing-tags').forEach(function(t){ t.remove(); });
+    if(post.innerText.includes('Was Black Summer')){
+      var title = post.querySelector('h3, .listing-title, a.title');
+      var body = title ? title.closest('div') : post;
+      var desc = post.querySelector('.listing-description');
+      var box = document.createElement('div');
+      box.className = 'listing-tags';
+      box.innerHTML = '<a>AUSTRALIA</a><a>CLIMATE</a><a>BUSHFIRES</a>';
+      if(desc){
+        desc.after(box);
+      } else if(body){
+        body.appendChild(box);
+      } else {
+        post.appendChild(box);
+      }
+    }
+  });
+}
+document.addEventListener("DOMContentLoaded", fixListing);
+setTimeout(fixListing, 300);
+setTimeout(fixListing, 1000);
+</script>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="c3Rvcnl0ZWxsaW5nJTJDY29tbXVuaWNhdGlvbg==" data-listing-date-sort="1791896400000" data-listing-file-modified-sort="1791957530668" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="83">
-<div class="thumbnail"><a href="./posts/first-post.html" class="no-external">
+<div class="quarto-post image-right" data-index="0" data-categories="" data-listing-date-sort="1760274000000" data-listing-file-modified-sort="1791978658088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1019">
+<div class="thumbnail"><a href="./posts/black-summer/index.html" class="no-external">
 
-<img loading="lazy" src="https://images.unsplash.com/photo-1543286386-713bdd548da4?w=800" class="thumbnail-image">
+<img loading="lazy" src="./posts/black-summer/thumbnail.jpg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/first-post.html" class="no-external">Why Data Storytelling Matters</a>
+<a href="./posts/black-summer/index.html" class="no-external">Was Black Summer more likely because of us?</a>
 </h3>
-<div class="delink listing-description"><a href="./posts/first-post.html" class="no-external">
-<p>We collect more data than ever, but most audiences don’t care about your model - they care about what it means for them.</p>
+<div class="listing-subtitle">
+<a href="./posts/black-summer/index.html" class="no-external">A 30-second answer to a question a lot of Australians have been asking since 2019-20</a>
+</div>
+<div class="delink listing-description"><a href="./posts/black-summer/index.html" class="no-external">
+Australia Climate Bushfires
 </a></div>
 </div>
 <div class="metadata">
-<a href="./posts/first-post.html" class="no-external">
+<a href="./posts/black-summer/index.html" class="no-external">
 <div class="listing-date">
-Oct 14, 2026
+Oct 13, 2025
 </div>
 <div class="listing-author">
 Aditya Sharma
@@ -363,7 +347,7 @@ Aditya Sharma
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/ETC5523-2026\.github\.io\/etc5523-assignment-3-adityasharma0404\/");
+        var filterRegex = new RegExp("https:\/\/etc5523-2026\.github\.io\/etc5523-assignment-3-adityasharma0404\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -691,6 +675,19 @@ Aditya Sharma
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Aditya Sharma | Built with Quarto</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
