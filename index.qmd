@@ -1,5 +1,6 @@
 ---
-title: "ETC5523 Blog Assessment"
+title: "Making Data Make Sense"
+subtitle: "Data stories, simply told"
 listing:
   contents: posts
   sort: "date desc"
@@ -7,8 +8,8 @@ listing:
   categories: true
   sort-ui: false
   filter-ui: false
-page-layout: full
-title-block-banner: true
 ---
 
+Welcome to my blog by **Aditya Sharma**
 
+I break down complex data into stories that actually make sense for everyone.

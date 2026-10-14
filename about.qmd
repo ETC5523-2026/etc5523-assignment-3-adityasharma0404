@@ -1,13 +1,53 @@
 ---
-title: "About"
-image: profile.jpg
+title: ""
+toc: false
 about:
-  template: jolla
+  template: trestles
+  image: profile.jpg
+  image-shape: round
+  image-width: 14em
   links:
     - icon: github
-      text: Github
-      href: https://github.com/etc5523-2022
-
+      text: GitHub
+      href: https://github.com/adityasharma0404
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/
+    - icon: envelope
+      text: Email
+      href: mailto:adityasharma90351@gmail.com
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/ad1_sharm4/
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+## About
+
+### Hi, I'm Aditya Sharma
+
+Masters student @ 【entity-Monash University¦canonical_name=Monash University】
+
+I believe good data work is invisible - if your audience is thinking about your chart instead of your message, you've lost them.
+
+This blog is my practice ground for that: taking complex analysis and translating it for people who don't care about p-values and r-squared stuff, they care about what to do next.
+
+#### What I work with
+
+**Tools:** R, Python, Quarto, ggplot2, Tableau, Shiny, Adobe XD, Figma
+**Focus:** Data storytelling, visual explanation, non-technical communication
+
+#### My approach
+
+**Audience first, chart second** — Start with their question, not your dataset
+
+**One message per visual** — If you need a paragraph to explain it, redesign it
+
+**Context over precision** — A rough number they remember beats a precise one they forget
+
+#### Outside data
+
+Coffee tasting, pet spotting, hiking, beach day-outs, soccer and cricket, and some occasional movies.
+
+#### Let's connect
+
+I'm always up for talking about anything — data, sports, humor, geopolitics, debates, and rock music.

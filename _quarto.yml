@@ -1,17 +1,34 @@
 project:
   type: website
+  output-dir: _site
 
 website:
-  title: "blog-template"
+  title: "Making Data Make Sense"
+  search: true
   navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
     right:
-      - about.qmd
       - icon: github
-        href: https://github.com/etc5523-2022
+        href: https://github.com/adityasharma0404
+      - icon: linkedin
+        href: https://linkedin.com/in/
+  sidebar:
+    style: docked
+    contents:
+      - text: Home
+        href: index.qmd
+      - section: Explore
+        contents:
+          - posts/*.qmd
+      - text: About
+        href: about.qmd
+
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
-
-
-
+    toc: true

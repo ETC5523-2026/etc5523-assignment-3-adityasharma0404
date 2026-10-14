@@ -1,0 +1,34 @@
+---
+title: "Why Data Storytelling Matters"
+date: "2026-10-14"
+author: "Aditya Sharma"
+categories: [storytelling, communication]
+description: "We collect more data than ever, but most audiences don't care about your model - they care about what it means for them."
+image: https://images.unsplash.com/photo-1543286386-713bdd548da4?w=800
+bibliography: ../references.bib
+---
+
+## Problem Description
+
+We collect more data than ever, but most audiences don't care about your model - they care about what it means for them.
+
+## Analysis
+
+For ETC5523, I translated a technical report for non-technical readers.
+
+![Story-first visuals improve recall](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800){#fig-impact}
+
+See @fig-impact - audience recall improves when we lead with implication.
+
+| Format | Recall |
+|---|---|
+| Data Table | 23% |
+| Story + Visual | 71% |
+
+: Recall by format {#tbl-summary}
+
+@tbl-summary shows the same. As @knaflic2015 notes, storytelling is the delivery mechanism.
+
+## Conclusion
+
+Start with their question, not your dataset.
