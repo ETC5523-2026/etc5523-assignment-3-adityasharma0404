@@ -1,4 +1,65 @@
-/* css styles */
-.navbar-dark, .quarto-title-banner {
-  background-color: #006DAE;
+/* Professional Theme */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  background: #fdfbf7 !important;
+  color: #2d2d2d !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #ffffff !important;
+  border-bottom: 2px solid #e9e2d6 !important;
+}
+.navbar-brand {
+  color: #0f3557 !important;
+  font-family: 'DM Serif Display', serif !important;
+  font-weight: 700 !important;
+  font-size: 1.35rem !important;
+  opacity: 1 !important;
+}
+.navbar .nav-link {
+  color: #222 !important;
+  font-weight: 600 !important;
+  opacity: 1 !important;
+}
+
+/* Make ETC5523 heading smaller */
+h1.title {
+  font-size: 2rem !important;
+  color: #0f3557 !important;
+  font-family: 'DM Serif Display', serif !important;
+  line-height: 1.2 !important;
+}
+.subtitle {
+  font-size: 1.05rem !important;
+  color: #6c757d !important;
+}
+
+/* Content placement - not full width */
+#quarto-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem !important;
+}
+
+/* Left sidebar */
+#quarto-sidebar {
+  background: #ffffff !important;
+  border-right: 1px solid #e9e2d6 !important;
+}
+
+/* Post cards with colour */
+.quarto-post {
+  background: white !important;
+  border: 1px solid #e9e2d6 !important;
+  border-radius: 12px !important;
+  padding: 1.2rem !important;
+  margin-bottom: 1.5rem !important;
+}
+.listing-category {
+  background: #eef3f8 !important;
+  color: #0f3557 !important;
+  border-radius: 20px !important;
 }

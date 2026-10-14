@@ -5,9 +5,10 @@ listing:
   contents: posts
   sort: "date desc"
   type: default
-  categories: true
+  categories: false
   sort-ui: false
   filter-ui: false
+toc: false
 ---
 
 Welcome to my blog by **Aditya Sharma**
