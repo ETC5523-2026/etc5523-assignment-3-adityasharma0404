@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "posts/first-post.html",
+    "href": "posts/first-post.html",
+    "title": "Why Data Storytelling Matters",
+    "section": "",
+    "text": "We collect more data than ever, but most audiences don’t care about your model - they care about what it means for them."
+  },
+  {
+    "objectID": "posts/first-post.html#problem-description",
+    "href": "posts/first-post.html#problem-description",
+    "title": "Why Data Storytelling Matters",
+    "section": "",
+    "text": "We collect more data than ever, but most audiences don’t care about your model - they care about what it means for them."
+  },
+  {
+    "objectID": "posts/first-post.html#analysis",
+    "href": "posts/first-post.html#analysis",
+    "title": "Why Data Storytelling Matters",
+    "section": "Analysis",
+    "text": "Analysis\nFor ETC5523, I translated a technical report for non-technical readers.\n\n\n\n\n\n\nFigure 1: Story-first visuals improve recall\n\n\n\nSee Figure 1 - audience recall improves when we lead with implication.\n\n\n\nTable 1: Recall by format\n\n\n\n\n\nFormat\nRecall\n\n\n\n\nData Table\n23%\n\n\nStory + Visual\n71%\n\n\n\n\n\n\nTable 1 shows the same. As Knaflic (2015) notes, storytelling is the delivery mechanism."
+  },
+  {
+    "objectID": "posts/first-post.html#conclusion",
+    "href": "posts/first-post.html#conclusion",
+    "title": "Why Data Storytelling Matters",
+    "section": "Conclusion",
+    "text": "Conclusion\nStart with their question, not your dataset."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Making Data Make Sense",
+    "section": "",
+    "text": "Masters student @ 【entity-Monash University¦canonical_name=Monash University】\nI believe good data work is invisible - if your audience is thinking about your chart instead of your message, you’ve lost them.\nThis blog is my practice ground for that: taking complex analysis and translating it for people who don’t care about p-values and r-squared stuff, they care about what to do next.\n\n\nTools: R, Python, Quarto, ggplot2, Tableau, Shiny, Adobe XD, Figma Focus: Data storytelling, visual explanation, non-technical communication\n\n\n\nAudience first, chart second — Start with their question, not your dataset\nOne message per visual — If you need a paragraph to explain it, redesign it\nContext over precision — A rough number they remember beats a precise one they forget\n\n\n\nCoffee tasting, pet spotting, hiking, beach day-outs, soccer and cricket, and some occasional movies.\n\n\n\nI’m always up for talking about anything — data, sports, humor, geopolitics, debates, and rock music.",
+    "crumbs": [
+      "Home",
+      "About"
+    ]
+  },
+  {
+    "objectID": "about.html#about",
+    "href": "about.html#about",
+    "title": "Making Data Make Sense",
+    "section": "",
+    "text": "Masters student @ 【entity-Monash University¦canonical_name=Monash University】\nI believe good data work is invisible - if your audience is thinking about your chart instead of your message, you’ve lost them.\nThis blog is my practice ground for that: taking complex analysis and translating it for people who don’t care about p-values and r-squared stuff, they care about what to do next.\n\n\nTools: R, Python, Quarto, ggplot2, Tableau, Shiny, Adobe XD, Figma Focus: Data storytelling, visual explanation, non-technical communication\n\n\n\nAudience first, chart second — Start with their question, not your dataset\nOne message per visual — If you need a paragraph to explain it, redesign it\nContext over precision — A rough number they remember beats a precise one they forget\n\n\n\nCoffee tasting, pet spotting, hiking, beach day-outs, soccer and cricket, and some occasional movies.\n\n\n\nI’m always up for talking about anything — data, sports, humor, geopolitics, debates, and rock music.",
+    "crumbs": [
+      "Home",
+      "About"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Making Data Make Sense",
+    "section": "",
+    "text": "Welcome to my blog by Aditya Sharma\nI break down complex data into stories that actually make sense for everyone.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy Data Storytelling Matters\n\n\n\nstorytelling\n\ncommunication\n\n\n\nWe collect more data than ever, but most audiences don’t care about your model - they care about what it means for them.\n\n\n\n\n\nOct 14, 2026\n\n\nAditya Sharma\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home"
+    ]
+  }
+]
